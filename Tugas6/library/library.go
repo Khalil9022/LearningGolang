@@ -7,10 +7,10 @@ type mahasiswa struct {
 	umur int
 }
 
-func Hasil() {
+func Hasil(nama string, umur int) {
 	var x mahasiswa
-	x.nama = "Khalil"
-	x.umur = 12
+	x.nama = nama
+	x.umur = umur
 	x.Namasaya()
 }
 
